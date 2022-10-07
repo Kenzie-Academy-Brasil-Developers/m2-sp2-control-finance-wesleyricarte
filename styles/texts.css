@@ -1,0 +1,72 @@
+/* TITLE 1 */
+.title1-bold {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-1);
+  line-height: var(--font-line-height-1);
+}
+
+/* TITLE 2 */
+.title2-bold {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
+  line-height: var(--font-line-height-1);
+}
+.title2-medium {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-2);
+  line-height: var(--font-line-height-1);
+}
+
+/* TEXT 1 */
+.text1-bold {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-1);
+  line-height: var(--font-line-height-1);
+}
+.text1-medium {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-2);
+  line-height: var(--font-line-height-1);
+}
+.text1-regular {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-3);
+  line-height: var(--font-line-height-1);
+}
+
+/* TEXT 2 */
+.text2-bold {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-1);
+  line-height: var(--font-line-height-1);
+}
+.text2-medium {
+  color: var(--color-grey-1);
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-2);
+  line-height: var(--font-line-height-1);
+}
+
+/* TITLE LOGO STYLES */
+.title-logo-1 {
+  color: var(--color-brand-1);
+}
+.title-logo-2 {
+  color: var(--color-grey-1);
+}
+
+
+/* NUNITO MODAL CLOSE STYLE */
+.modal-close {
+  border-radius: var(--radius-2);
+  font-family: var(--font-family-2);
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
+}

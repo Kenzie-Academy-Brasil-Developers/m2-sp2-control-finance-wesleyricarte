@@ -46,13 +46,23 @@ body {
 }
 
 .container {
+  /* background-color: darkgoldenrod; */
   max-width: 43rem;
   margin: 0 auto;
+  height: 100%;
+
+  padding: 0 1rem;
 }
 
 @media (max-width: 700px) {
   .container {
+    display: flex;
     max-width: 43rem;
+    height: 100%;
     margin: 0 1rem;
   }
+}
+
+.hidden {
+  display: none;
 }

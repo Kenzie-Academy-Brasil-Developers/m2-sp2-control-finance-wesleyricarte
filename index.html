@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- META SITE -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control Finance</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Control Finance - Seu controle financeiro"
+    />
+    <!-- STYLESHEETS CSS -->
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/texts.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <link rel="stylesheet" href="./styles/modals.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <!-- SCRIPTS HERE -->
+    <script
+      src="https://kit.fontawesome.com/a2a7b902de.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./scripts/modal.js"></script>
+    <script defer src="./pages/home/valuesData.js"></script>
+    <script defer src="./pages/home/index.js"></script>
+  </head>
+  <!-- SITE BODY -->
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <nav class="navbar-itens">
+          <div class="div-logo">
+            <h1 class="title-logo-1 title1-bold">Control</h1>
+            <h1 class="title-logo-2 title1-bold">Finance</h1>
+          </div>
+          <button
+            class="button-insert-new-value buttons-default buttons-primary"
+          >
+            Registrar novo valor
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- BODY MAIN CONTENT -->
+    <main class="main-content">
+      <div class="container" id="container-body">
+        <!-- Section Insert new value Without Values here -->
+        <section class="section-add-new-value">
+          <h5 class="title2-bold">Nenhum valor cadastrado</h5>
+          <button
+            class="button-insert-new-value-without-value text1-medium buttons-no-style buttons-default"
+          >
+            Registrar novo valor
+          </button>
+        </section>
+
+        <!-- Section Resume all values -->
+        <section class="section-resume">
+          <div class="div-title-resume">
+            <div class="div-title-resume-title">
+              <h3 class="title2-medium">Resumo financeiro</h3>
+            </div>
+            <!-- Div buttons -->
+            <div class="div-title-resume-buttons">
+              <button id="button-all" class="buttons-default buttons-outline text1-bold">
+                Todos
+              </button>
+              <button id="button-pos" class="buttons-default buttons-outline text1-bold">
+                Entradas
+              </button>
+              <button id="button-neg" class="buttons-default buttons-outline text1-bold">
+                Saídas
+              </button>
+            </div>
+          </div>
+          <!-- Div de soma dos valores -->
+          <div class="div-sum-values">
+            <div class="div-sum-values-title">
+              <h4 class="text1-medium">Soma dos Valores</h4>
+            </div>
+            <div class="div-sum-values-result">
+              <h4 id="sum-all-values" class="text1-medium">R$ 2.000,00</h4>
+            </div>
+          </div>
+          <ul class="ul-values"></ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

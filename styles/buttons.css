@@ -1,0 +1,54 @@
+/* ALL BUTTONS STYLE */
+.buttons-default {
+  height: 2rem;
+  padding-inline: 0.875rem;
+  border-radius: var(--radius-1);
+  align-items: center;
+}
+
+/* PRIMARY STYLES */
+.buttons-primary {
+  background-color: var(--color-brand-1);
+  border: solid 1px var(--color-brand-1);
+  color: var(--fixed-white);
+}
+.buttons-primary:hover {
+  background-color: var(--color-brand-2);
+  border: solid 1px var(--color-brand-2);
+}
+
+/* GREYLOW STYLES */
+.buttons-greylow {
+  background-color: var(--color-grey-5);
+  border: solid 1px var(--color-grey-5);
+  color: var(--color-grey-2);
+}
+.buttons-greylow:hover {
+  background-color: var(--color-grey-4);
+  border: solid 1px var(--color-grey-4);
+  color: var(--color-grey-1);
+}
+
+/* OUTLINE STYLES */
+.buttons-outline {
+  background-color: var(--fixed-white);
+  border: solid 1px var(--color-grey-4);
+  color: var(--color-grey-2);
+}
+.buttons-outline:hover {
+  background-color: var(--color-brand-3);
+  border: solid 1px var(--color-brand-2);
+  color: var(--color-brand-2);
+}
+.buttons-outline:checked {
+  background-color: var(--color-brand-3);
+  border: solid 1px var(--color-brand-2);
+  color: var(--color-brand-2);
+}
+
+/* NO STYLES */
+.buttons-no-style {
+ border: none;
+ background-color: var(--color-grey-5);
+ color: var(--color-grey-1);
+}
